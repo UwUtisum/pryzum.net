@@ -56,7 +56,7 @@ Loading = [
   // loading screen for website (it is a copy of a rasperry PI boot screen lol)
   "<br>",
   "<br>",
-  '<img src="./PryzumTerminal/img/startuplogo.png"><img src="./PryzumTerminal/img/startuplogo.png"><img src="./PryzumTerminal/img/startuplogo.png"><img src="./PryzumTerminal/img/startuplogo.png">',
+  '<img src="./img/startuplogo.png"><img src="./img/startuplogo.png"><img src="./img/startuplogo.png"><img src="./img/startuplogo.png">',
   "<span class=\"color5\">[</span>  <span class=\"color4\">OK</span>  <span class=\"color5\">]  Reached Target Remote file Systems (Pre).</span>",
   "<span class=\"color5\">[</span>  <span class=\"color4\">OK</span>  <span class=\"color5\">]  Reached Target Encrypted Volumes.</span>",
   "<span class=\"color5\">[</span>  <span class=\"color4\">OK</span>  <span class=\"color5\">]  Set up automount Arbitrary Executable File Formats File System Automount Point.</span>",
