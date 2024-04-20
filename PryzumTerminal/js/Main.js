@@ -19,8 +19,9 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     command.innerHTML=textarea.value)}function commander(cmd){switch(cmd.toLowerCase()){case"dir":loopLines(help,"color2 margin",80);break
     /// main commands list (make sure to make a ref to the command in the commands list config)
     ;case"changelog":loopLines(changelog,"color2 margin",80);break
-    //;case"video":case"youtube":addLine("Opening YouTube...","color2",80),newTab(youtube);break
-    ;case"who are we":loopLines(whoarewe,"color2 margin",80);break
+    ;case"internal computer":addLine("Opening The Internal Computer...","color2",80),newTab(pcc);break
+    ;case"home":addLine("Going home","color2",80),window.location.href=(home);break
+    // ;case"who are we":loopLines(whoarewe,"color2 margin",80);break
     ;case"history":addLine("<br>","",0),loopLines(commands,"color2",80);break
     ;case"clear":setTimeout((function(){terminal.innerHTML='<a id="before"></a>',before=document.getElementById("before")}),1);break
     ;case"banner":loopLines(banner,"",80);break

@@ -1,5 +1,5 @@
-//var youtube = " ";
-//var twitter = " ";
+var pcc = "https://arescs.github.io/gta-v-pryzum-central-computer/";
+var home = "https://pryzum.github.io";
 //var linkedin = " ";
 //var instagram = " ";
 //var github = " ";
@@ -19,7 +19,9 @@
 help = [
   "<br>",
   '<span class="command">changelog</span>         Check the websites changelog',
+  '<span class="command">Internal Computer</span> Open the Internal Computer',
   '<span class="command">history</span>           View command history',
+  '<span class="command">Home</span>              Go Back to The Home Page',
   '<span class="command">clear</span>             Clear terminal',
   '<span class="command">banner</span>            Display the header',
   "<br>",
@@ -39,7 +41,7 @@ banner = [
   "<span class=\"color5\">             ░     ░ ░       ░ ░       ░            ░     </span>",
   "<span class=\"color5\">             ░ ░     ░                                    </span>",
   "<span class=\"color5\"></span>",
-  '<span class="color2">Welcome to the P.C.C (Pryzum Centeral Computer)</span>',
+  '<span class="color2">Welcome to the P.T.I (Pryzum Terminal Interface)</span>',
   "<span class=\"color2\">To check The directory please, type</span> <span class=\"command\">'dir'</span><span class=\"color2\">.</span>",
 ];
 
@@ -48,7 +50,9 @@ changelog = [
   "///--------------Pryzum Website Change Log----------------///",
   "<span class='command'>              Website Went Live - 17/04/2024</span>",
   "<span class='command'>          Pryzum Terminal Went Live - 18/04/2024</span>",
-  '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
+  "<span class='command'>      Added the internal Computer Command - 20/04/2024</span>",
+  "<span class='command'>            Added the Home Command - 20/04/2024</span>",
+  '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
 
