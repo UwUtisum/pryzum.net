@@ -53,7 +53,7 @@ changelog = [
   "<span class='command'>          Pryzum Terminal Went Live - 18/04/2024</span>",
   "<span class='command'>      Added the internal Computer Command - 20/04/2024</span>",
   "<span class='command'>            Added the Home Command - 20/04/2024</span>",
-  "<span class='command'>          Added the Neofetch Command - 20/04/2024</span>",
+  "<span class='command'>          Added the Neofetch Command - 23/04/2024</span>",
   '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
