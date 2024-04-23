@@ -29,6 +29,10 @@ b {
   font-weight: bold;
   text-decoration: underline;
 }
+.h1ns {
+  margin: 0;
+  padding: 0;
+}
 /* Cursor Start */
 .cursor {
   font-size: 12px;
