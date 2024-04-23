@@ -20,6 +20,7 @@ help = [
   "<br>",
   '<span class="command">changelog</span>         Check the websites changelog',
   '<span class="command">Internal Computer</span> Open the Internal Computer',
+  '<span class="command">Neofetch</span>          List the system specs of the P.T.I',
   '<span class="command">history</span>           View command history',
   '<span class="command">Home</span>              Go Back to The Home Page',
   '<span class="command">clear</span>             Clear terminal',
@@ -52,6 +53,7 @@ changelog = [
   "<span class='command'>          Pryzum Terminal Went Live - 18/04/2024</span>",
   "<span class='command'>      Added the internal Computer Command - 20/04/2024</span>",
   "<span class='command'>            Added the Home Command - 20/04/2024</span>",
+  "<span class='command'>          Added the Neofetch Command - 20/04/2024</span>",
   '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -113,4 +115,32 @@ Loading = [
 
 whoarewe = [
 
+];
+
+neofetch = [
+  //  neofetch command 
+  "<br>",
+  "<span class=\"color5\">                   .:-===-                    </span>Pryzum@Computer",
+  "<span class=\"color5\">                .:-=========-:                </span>-------------",
+  "<span class=\"color5\">             .:================-.             </span>OS: Kali GNU/Linux",
+  "<span class=\"color5\">          :-=========-.:-==========           </span>Kernel: 5.15.133.1",
+  "<span class=\"color5\">      .:-=========-.     ..-===-:.   .-       </span>Uptime: N/A",
+  "<span class=\"color5\">    :==========:.            .    .:=====-    </span>Packages: 411 (dpkg)",
+  "<span class=\"color5\">    :========:.                .-========-    </span>Shell: bash 5.2.21",
+  "<span class=\"color5\">    .:-=========--         .:-===========-    </span>Terminal: Relay(9)",
+  "<span class=\"color5\">       ..-==========-.  .:-==============-    </span>CPU: DMA Cyzen 9 5900X (24) @ 3.700GHz",
+  "<span class=\"color5\">    --.   ..:====================:..=====-    </span>GPU: XTR 6060",
+  "<span class=\"color5\">    :===-:    .:-============-:.   .=====-    </span>Memory: 393MiB / 15953MiB",
+  "<span class=\"color5\">    :=====:      .:-=========-:.   .=====-    </span>",
+  "<span class=\"color5\">    :=====:         -===========-...=====-    </span><span class=\"neofetchcolour1\">███</span><span class=\"neofetchcolour2\">███</span><span class=\"neofetchcolour3\">███</span><span class=\"neofetchcolour4\">███</span><span class=\"neofetchcolour5\">███</span><span class=\"neofetchcolour6\">███</span><span class=\"neofetchcolour7\">███</span>",
+  "<span class=\"color5\">    :=====:         -====-===============-    </span><span class=\"neofetch2colour1\">███</span><span class=\"neofetch2colour2\">███</span><span class=\"neofetch2colour3\">███</span><span class=\"neofetch2colour4\">███</span><span class=\"neofetch2colour5\">███</span><span class=\"neofetch2colour6\">███</span><span class=\"neofetch2colour7\">███</span>",
+  "<span class=\"color5\">    :=====:         -====-..:-===========-    </span>",
+  "<span class=\"color5\">    :======-:       -====-.    .-========-    </span>",
+  "<span class=\"color5\">    :==========-    -====-.      ..:=====-    </span>",
+  "<span class=\"color5\">     ..:=========-:.-=====           .:.      </span>",
+  "<span class=\"color5\">         .:-==============                    </span>",
+  "<span class=\"color5\">             .-===========                    </span>",
+  "<span class=\"color5\">               ..:========                    </span>",
+  "<span class=\"color5\">                   .:-==--                    </span>",
+  "<br>",
 ];

@@ -25,6 +25,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"history":addLine("<br>","",0),loopLines(commands,"color2",80);break
     ;case"clear":setTimeout((function(){terminal.innerHTML='<a id="before"></a>',before=document.getElementById("before")}),1);break
     ;case"banner":loopLines(banner,"",80);break
+    ;case"neofetch":loopLines(neofetch,"",80);break
     // -------------------un-used commands might use later on-----------------------------
     //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break
