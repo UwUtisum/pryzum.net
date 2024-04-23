@@ -42,7 +42,7 @@ banner = [
   "<span class=\"color5\">             ░     ░ ░       ░ ░       ░            ░     </span>",
   "<span class=\"color5\">             ░ ░     ░                                    </span>",
   "<span class=\"color5\"></span>",
-  '<span class="color2">Welcome to the P.T.I (Pryzum Terminal Interface)</span>',
+  '<span class="color2">Welcome to the P.T.I V1.0.4 (Pryzum Terminal Interface)</span>',
   "<span class=\"color2\">To check The directory please, type</span> <span class=\"command\">'dir'</span><span class=\"color2\">.</span>",
 ];
 
