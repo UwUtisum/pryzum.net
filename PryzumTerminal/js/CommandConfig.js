@@ -149,6 +149,10 @@ neofetch = [
 
 statements = [
   '<hr>',
+  '<h1><span class=\"color5\">A Statement From Pryzum, 28th of May 2024:</span></h1>',
+  '<img src="https://femboy.beauty/90R3c.png" style="width:450px;height:700px;">',
+  '<br>',
+  '<hr>',
   '<h1><span class=\"color5\">A Statement From Pryzum, 23rd of April 2024:</span></h1>',
   '<br>',
   "<h1 class='h1ns'><span class=\"color5\">&nbsp;██╗ ██╗ ██╗███╗   ███╗██████╗ ███████╗ █████╗  ██████╗██╗  ██╗███╗   ███╗ █████╗ ██╗  ██╗</span></h1>",
