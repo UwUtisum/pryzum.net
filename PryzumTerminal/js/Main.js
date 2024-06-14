@@ -27,6 +27,15 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"banner":loopLines(banner,"",80);break
     ;case"neofetch":loopLines(neofetch,"",80);break
     ;case"statements":loopLines(statements,"",80);break
+    ;case"join us":loopLines(join_us,"",80);break
+
+    // task one:
+    ;case"flag{The truth is not what is seems}","":loopLines(statements,"",80);break
+    // task two:
+    ;case"flag{Active mesures}","":loopLines(statements,"",80);break
+    // task three:
+    ;case"flag{Light at the end of a dark tunel}","":loopLines(statements,"",80);break
+
     // -------------------un-used commands might use later on-----------------------------
     //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break

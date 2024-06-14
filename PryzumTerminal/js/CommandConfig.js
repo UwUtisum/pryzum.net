@@ -23,6 +23,7 @@ help = [
   '<span class="command">Statements</span>        View the latest Pryzum Statements',
   '<span class="command">Neofetch</span>          List the system specs of the P.T.I',
   '<span class="command">history</span>           View command history',
+  '<span class="command">Join Us</span>           Get intouch with us',
   '<span class="command">Home</span>              Go Back to The Home Page',
   '<span class="command">clear</span>             Clear terminal',
   '<span class="command">banner</span>            Display the header',
@@ -56,6 +57,7 @@ changelog = [
   "<span class='command'>            Added the Home Command - 20/04/2024</span>",
   "<span class='command'>          Added the Neofetch Command - 22/04/2024</span>",
   "<span class='command'>         Added the Statements Command - 23/04/2024</span>",
+  "<span class='command'>          Added the Join Us Command - 14/06/2024</span>",
   '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -183,4 +185,22 @@ statements = [
   'b3duPz8/Pz8gaXQgc2VlbXMgdG9vIHN1c3BpY2lvdXMgdG8gdXMg',
   '<br>',
   '<img src="https://femboy.beauty/gu4Mo.png" style="width:300px;height:300px;">',
+];
+
+join_us = [
+  "<br>",
+  "                 contact this number and we will be in touch",
+  '<img src="https://femboy.beauty/DzYwK.png" style="width:700px;height:300px;">',
+];
+
+mission_objective_1 = [
+
+];
+
+mission_objective_2 = [
+
+];
+
+mission_objective_3 = [
+
 ];
