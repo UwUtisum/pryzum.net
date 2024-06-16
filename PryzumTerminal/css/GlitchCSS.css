@@ -56,7 +56,7 @@ body {
           animation: 20s distort 21s infinite alternate, blur 60ms infinite, flick 50ms infinite, jump 50ms infinite;
 }
 
-@-webkit-keyframes crt {
+/*@-webkit-keyframes crt {
   28% {
     background: #232624;
   }
@@ -72,7 +72,7 @@ body {
   35% {
     background: #202421;
   }
-}
+} 
 
 @keyframes crt {
   28% {
@@ -90,7 +90,8 @@ body {
   35% {
     background: #202421;
   }
-}
+}*/
+
 @-webkit-keyframes blur {
   0% {
     filter: blur(0.5px);
