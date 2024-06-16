@@ -194,7 +194,7 @@ join_us = [
 ];
 
 mission_objective_1 = [
-
+  
 ];
 
 mission_objective_2 = [
