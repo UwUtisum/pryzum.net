@@ -30,7 +30,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"join us":loopLines(join_us,"",80);break
 
     // task one:
-    ;case"flag{The truth is not what is seems}","":loopLines(statements,"",80);break
+    ;case"mission":loopLines(mission_objective_1,"",80);break
     // task two:
     ;case"flag{Active mesures}","":loopLines(statements,"",80);break
     // task three:

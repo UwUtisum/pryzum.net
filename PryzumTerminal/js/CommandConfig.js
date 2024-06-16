@@ -194,7 +194,11 @@ join_us = [
 ];
 
 mission_objective_1 = [
-  
+  "thank you for reaching out to us,",
+  "<hr>",
+  "before you continue you must understand that pryzums means of promoting our ideology is, to some... quite extreme,",
+  "with this being said do not be surprised if we get branded terrorists down the road.",
+  "-- P will be in contact with you soon with more info..."
 ];
 
 mission_objective_2 = [
