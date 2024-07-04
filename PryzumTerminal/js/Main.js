@@ -29,12 +29,9 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"statements":loopLines(statements,"",80);break
     ;case"join us":loopLines(join_us,"",80);break
 
-    // task one:
+    // Pryzum CTF Command
     ;case"mission":loopLines(mission_objective_1,"",80);break
-    // task two:
-    ;case"flag{Active mesures}","":loopLines(statements,"",80);break
-    // task three:
-    ;case"flag{Light at the end of a dark tunel}","":loopLines(statements,"",80);break
+    // Flag{NEVER_TRUST_THE_GOVENMENT}
 
     // -------------------un-used commands might use later on-----------------------------
     //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
@@ -42,6 +39,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     //;case"instagram":addLine("Opening Instagram...","color2",0),newTab(instagram);break
     //;case"github":addLine("Opening GitHub...","color2",0),newTab(github);break
     //---------------------------------------------------------------------------------------------------------------------
+
     // command unknown code:
     ;default:addLine('<span class="inherit">Command not found. To see the directory please, type <span class="command">\'dir\'</span>.</span>',"error",100)}}
     function newTab(link){setTimeout((function(){window.open(link,"_blank")}),500)}function addLine(text,style,time){var t="";for(let i=0;i<text.length;i++)" "==text.charAt(i)&&" "==text.charAt(i+1)?(t+="&nbsp;&nbsp;",i++):t+=text.charAt(i);setTimeout((function(){var next=document.createElement("p");next.innerHTML=t,next.className=style,before.parentNode.insertBefore(next,before),window.scrollTo(0,document.body.offsetHeight)}),time)}

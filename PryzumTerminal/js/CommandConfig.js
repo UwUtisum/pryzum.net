@@ -33,7 +33,7 @@ help = [
 banner = [
   "<br>",
   "<br>",
-  "<span class=\"color5\"> ██▓███   ██▀███ ▓██   ██▓▒███████▒ █    ██  ███▄ ▄███▓   </span>",
+  "<span class=\"color5\">&nbsp;██▓███   ██▀███ ▓██   ██▓▒███████▒ █    ██  ███▄ ▄███▓   </span>",
   "<span class=\"color5\"> ▓██░  ██▒▓██ ▒ ██▒▒██  ██▒▒ ▒ ▒ ▄▀░ ██  ▓██▒▓██▒▀█▀ ██▒  </span>",
   "<span class=\"color5\"> ▓██░ ██▓▒▓██ ░▄█ ▒ ▒██ ██░░ ▒ ▄▀▒░ ▓██  ▒██░▓██    ▓██░  </span>",
   "<span class=\"color5\"> ▒██▄█▓▒ ▒▒██▀▀█▄   ░ ▐██▓░  ▄▀▒   ░▓▓█  ░██░▒██    ▒██   </span>",
@@ -194,17 +194,19 @@ join_us = [
 ];
 
 mission_objective_1 = [
-  "thank you for reaching out to us,",
+  "<h1>thank you for reaching out to us,</h1>",
   "<hr>",
-  "before you continue you must understand that pryzums means of promoting our ideology is, to some... quite extreme,",
-  "with this being said do not be surprised if we get branded terrorists down the road.",
-  "-- P will be in contact with you soon with more info..."
-];
-
-mission_objective_2 = [
-
-];
-
-mission_objective_3 = [
-
+  "<h1>Pryzum CTF (Capture The Flag):</h1>",
+  "Your Challange is to find 4 hidden flags all over this website",
+  "<br>",
+  "the flags will look like this:",
+  "Flag{THIS_IS_AN_EXAMPLE_FLAG}",
+  "<br>",
+  "as a hint: gobuster & EXIF data",
+  "<br>",
+  "once you get a flag text it to Pryzum and we will be intouch when you are done",
+  "if you cant find all of them dont worry it is meant to me challangeing,",
+  "<br>",
+  "<b>PLEASE NOTE: ALL FLAGS ARE WITHIN THIS WEBSITE DO NOT TRY TO ATTACK THE HOST IP OF THIS SITE!!!!</b>",
+  "<hr>",
 ];
