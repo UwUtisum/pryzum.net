@@ -7,3 +7,5 @@ this website is for entertainment only and is not endorced or officaly from nopi
 this project was made by Github user @UwUtisum <br>
 link to my Nopixel Wiki page: <br>
 https://nopixel.fandom.com/wiki/Lucy_Webb
+
+if you are seeing this from the CTF good luck :3
