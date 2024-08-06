@@ -1,5 +1,4 @@
-var pcc = "https://arescs.github.io/gta-v-pryzum-central-computer/";
-var home = "https://pryzum.github.io";
+var home = "./";
 //var linkedin = " ";
 //var instagram = " ";
 //var github = " ";
@@ -58,6 +57,9 @@ changelog = [
   "<span class='command'>          Added the Neofetch Command - 22/04/2024</span>",
   "<span class='command'>         Added the Statements Command - 23/04/2024</span>",
   "<span class='command'>          Added the Join Us Command - 14/06/2024</span>",
+  "<span class='command'>       Removed Old internal PC command - 06/08/2024</span>",
+  "<span class='command'>             Added shitlist Page - 06/08/2024</span>",
+  "<span class='command'>         Added Phone Downloads Page - 06/08/2024</span>",
   '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -207,6 +209,6 @@ mission_objective_1 = [
   "once you get a flag text it to Pryzum and we will be intouch when you are done",
   "if you cant find all of them dont worry it is meant to me challangeing,",
   "<br>",
-  "<b>PLEASE NOTE: ALL FLAGS ARE WITHIN THIS WEBSITE DO NOT TRY TO ATTACK THE HOST IP OF THIS SITE!!!!</b>",
+  "<b>PLEASE NOTE: ALL FLAGS ARE WITHIN THE SOURCE CODE OF THIS WEBSITE DO NOT TRY TO ATTACK THE HOST IP OF THIS SITE!!!!</b>",
   "<hr>",
 ];
