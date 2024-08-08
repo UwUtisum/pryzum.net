@@ -1,4 +1,4 @@
-var home = "./";
+var home = "https://pryzum.net";
 //var linkedin = " ";
 //var instagram = " ";
 //var github = " ";
