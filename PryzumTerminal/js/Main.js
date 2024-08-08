@@ -54,6 +54,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     setTimeout((function(){terminal.innerHTML='<a id="before"></a>',before=document.getElementById("before")}),5300),
     setTimeout((function(){loopLines(banner,"",80),textarea.focus()}),6300),
     //loopLines(banner,"",2200),
+    
     // ---------------------------------------------------------------------------------------------------------------------
     window.addEventListener("keyup",enterKey),console.log(" ","color: #04ff00; font-weight: bold; font-size: 24px;"),
     console.log(" "+password+" ","color: grey"),
