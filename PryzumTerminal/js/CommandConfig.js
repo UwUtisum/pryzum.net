@@ -18,7 +18,6 @@ var home = "./";
 help = [
   "<br>",
   '<span class="command">changelog</span>         Check the websites changelog',
-  '<span class="command">Internal Computer</span> Open the Internal Computer',
   '<span class="command">Statements</span>        View the latest Pryzum Statements',
   '<span class="command">Neofetch</span>          List the system specs of the P.T.I',
   '<span class="command">history</span>           View command history',
