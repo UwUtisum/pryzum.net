@@ -108,16 +108,18 @@ Loading = [
 
 whoarewe = [
   "<br>",
-  '                                        <img src="./img/startuplogo.png">',
-  "       Pryzum is a decentralised network of people who have decided enough is enough,", 
-  "    we stride to uncover all the dirty little secrets that pepole in power like to hide",
-  "      no matter who you are where you are or what you are, we have no centralized HQ",
-  '        nor do we hold any "turfs" we are spread out all through out San Andreas and ',
-  "                          we are in places you would not suspect.",
-  "sometimes our motives might not seem 100% clear but don't worry we like chaos ;) and chaos is fun",
-  "we are not afraid of the law and we will not hesitate to do anything to get our message across... ",
-  "                 dGhpcyBpbmNsdWRlcyBjb21taXRpbmcgYWN0cyBvZiB0ZXJyb3I= ;)",
-  // 
+  '                 <img src="./img/Pryzum_Logo.png">',
+  "<br>",
+  "<span class=\"color5\">       Pryzum is a decentralised network of people who have decided enough is enough,</span>", 
+  "<span class=\"color5\">    we stride to uncover all the dirty little secrets that pepole in power like to hide</span>",
+  "<span class=\"color5\">      no matter who you are where you are or what you are, we have no centralized HQ</span>",
+  '<span class=\"color5\">        nor do we hold any "turfs" we are spread out all through out San Andreas and </span>',
+  "<span class=\"color5\">                          we are in places you would not suspect.</span>",
+  "<span class=\"color5\">sometimes our motives might not seem 100% clear but don't worry we like chaos ;) and chaos is fun</span>",
+  "<span class=\"color5\">we are not afraid of the law and we will not hesitate to do anything to get our message across... </span>",
+  "<br>",
+  "<span class=\"color5\">                 dGhpcyBpbmNsdWRlcyBjb21taXRpbmcgYWN0cyBvZiB0ZXJyb3I= ;)</span>",
+  "<br>",
 ];
 
 neofetch = [

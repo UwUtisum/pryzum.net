@@ -79,21 +79,12 @@ function commander(cmd) {
             loopLines(creativeminds, "", 80);
             break;
 // ----------------------------------------------------------
-            // Pryzum CTF Command
+        // Pryzum CTF Command
         case "mission":
             loopLines(mission_objective_1, "", 80);
             break;
-            // Flag{NEVER_TRUST_THE_GOVENMENT}
 
-            // -------------------un-used commands might use later on-----------------------------
-            //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
-            //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break
-            //;case"instagram":addLine("Opening Instagram...","color2",0),newTab(instagram);break
-            //;case"github":addLine("Opening GitHub...","color2",0),newTab(github);break
-            //---------------------------------------------------------------------------------------------------------------------
-
-            // command unknown code:
-            
+        // command unknown code:
         default:
             addLine('<span class="inherit">Command not found. To see the directory please, type <span class="command">\'dir\'</span>.</span>', "error", 100)
     }
