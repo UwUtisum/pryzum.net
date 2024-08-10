@@ -64,14 +64,14 @@ b {
   line-height: 1.3em;
   margin-top: -2px;
   animation: show 0.5s ease forwards;
-  animation-delay: 1.2s;
+  animation-delay: 6.3s;
   opacity: 0;
 }
 #liner {
   line-height: 1.3em;
   margin-top: -2px;
   animation: show 0.5s ease forwards;
-  animation-delay: 1.2s;
+  animation-delay: 6.3s;
   opacity: 0;
 }
 #liner::before {

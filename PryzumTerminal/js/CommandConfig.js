@@ -1,19 +1,4 @@
-var home = "https://pryzum.net";
-//var linkedin = " ";
-//var instagram = " ";
-//var github = " ";
-//var email = ' ';
-
-//---------------------------- Red List Idea---------------------------------
-//Redlist = [
-//  "<span class=\"color5\">                                                                The Red List                                                                  </span>",
-//  "<span class=\"color5\">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</span>",
- // "<span class=\"color5\">│ Nickname │                                                       Notes:                                                  │   Phone Number:  │</span>",
- // "<span class=\"color5\">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</span>",
- // "<span class=\"color5\">│    DP    │                                    Selling weed at a low price also selling BUTC                              │   1234567891011  │</span>",
- // "<span class=\"color5\">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</span>",
- // "<br>",
-//];
+var home = "../";
 
 help = [
   "<br>",
@@ -21,10 +6,12 @@ help = [
   '<span class="command">Statements</span>        View the latest Pryzum Statements',
   '<span class="command">Neofetch</span>          List the system specs of the P.T.I',
   '<span class="command">history</span>           View command history',
+  '<span class="command">Who are we</span>        Info About Pryzum',
   '<span class="command">Join Us</span>           Get intouch with us',
   '<span class="command">Home</span>              Go Back to The Home Page',
   '<span class="command">clear</span>             Clear terminal',
   '<span class="command">banner</span>            Display the header',
+  '<span class="color5">OOC Commands      View OOC Commands</span>',
   "<br>",
 ];
 
@@ -42,7 +29,7 @@ banner = [
   "<span class=\"color5\">             ░     ░ ░       ░ ░       ░            ░     </span>",
   "<span class=\"color5\">             ░ ░     ░                                    </span>",
   "<span class=\"color5\"></span>",
-  '<span class="color2">Welcome to the P.T.I V1.0.4 (Pryzum Terminal Interface)</span>',
+  '<span class="color2">Welcome to the P.T.I V1.2.7 (Pryzum Terminal Interface)</span>',
   "<span class=\"color2\">To check The directory please, type</span> <span class=\"command\">'dir'</span><span class=\"color2\">.</span>",
 ];
 
@@ -59,6 +46,7 @@ changelog = [
   "<span class='command'>       Removed Old internal PC command - 06/08/2024</span>",
   "<span class='command'>             Added shitlist Page - 06/08/2024</span>",
   "<span class='command'>         Added Phone Downloads Page - 06/08/2024</span>",
+  "<span class='command'>          Added who are we command - 10/08/2024</span>",
   '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -119,7 +107,17 @@ Loading = [
 ];
 
 whoarewe = [
-
+  "<br>",
+  '                                        <img src="./img/startuplogo.png">',
+  "       Pryzum is a decentralised network of people who have decided enough is enough,", 
+  "    we stride to uncover all the dirty little secrets that pepole in power like to hide",
+  "      no matter who you are where you are or what you are, we have no centralized HQ",
+  '        nor do we hold any "turfs" we are spread out all through out San Andreas and ',
+  "                          we are in places you would not suspect.",
+  "sometimes our motives might not seem 100% clear but don't worry we like chaos ;) and chaos is fun",
+  "we are not afraid of the law and we will not hesitate to do anything to get our message across... ",
+  "                 dGhpcyBpbmNsdWRlcyBjb21taXRpbmcgYWN0cyBvZiB0ZXJyb3I= ;)",
+  // 
 ];
 
 neofetch = [
@@ -210,4 +208,29 @@ mission_objective_1 = [
   "<br>",
   "<b>PLEASE NOTE: ALL FLAGS ARE WITHIN THE SOURCE CODE OF THIS WEBSITE DO NOT TRY TO ATTACK THE HOST IP OF THIS SITE!!!!</b>",
   "<hr>",
+];
+
+ooccommands = [
+  //list of ooc commands 
+  "<br>",
+  '<span class="command">--------------------------------------</span>',
+  '<span class="command">     OOC Pryzum terminal Commands     </span>',
+  '<span class="command">--------------------------------------</span>',
+  '<span class="command">Creative Minds</span>    Check out the The Createive Minds behind Pryzum',
+  "<br>",
+];
+
+creativeminds = [
+  //the createive minds behind Pryzum
+  '<span class="color5">--------------------------------------</span>',
+  '<span class="color5">        This is an OOC Command        </span>',
+  '<span class="color5">--------------------------------------</span>',
+  "<h1 class='h1ns'>Rohho</h1>",
+  "     Responsible for the Music Production For Pryzum Videos",
+  "<h1 class='h1ns'>UwUtisum</h1>",
+  "     Responsible for the Development of Pryzum.net & Video Production",
+  "<h1 class='h1ns'>Raya</h1>",
+  "     Responsible for Development of internal Pryzum databases",
+  "<h1 class='h1ns'>AkuMaccy</h1>",
+  "     Responsible for the Music Production For Pryzum Videos",
 ];

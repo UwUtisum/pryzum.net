@@ -14,7 +14,7 @@ function enterKey(e) {
             w = textarea.value.length;
         command.innerHTML = et.repeat(w),
             textarea.value === password && (pwd = !0), pwd && 13 == e.keyCode ?
-            (loopLines(members_portal, "color2 margin", 120),
+            (loopLines(members_portal, "color2 margin", 15),
                 command.innerHTML = "", textarea.value = "",
                 pwd = !1, pw = !1, liner.classList.remove("password")) : 13 == e.keyCode && (addLine("Wrong password", "error", 0), command.innerHTML = "",
                 textarea.value = "",
@@ -44,40 +44,45 @@ function commander(cmd) {
             ;
         case "history":
             addLine("<br>", "", 0), loopLines(commands, "color2", 80);
-            break
-
-            ;
+            break;
+            
         case "clear":
             setTimeout((function() {
                 terminal.innerHTML = '<a id="before"></a>', before = document.getElementById("before")
             }), 1);
-            break
+            break;
 
-            ;
         case "banner":
             loopLines(banner, "", 80);
-            break
+            break;
 
-            ;
         case "neofetch":
             loopLines(neofetch, "", 80);
-            break
+            break;
 
-            ;
         case "statements":
             loopLines(statements, "", 80);
-            break
+            break;
 
-            ;
         case "join us":
             loopLines(join_us, "", 80);
-            break
+            break;
+        case "who are we":
+            loopLines(whoarewe, "", 80);
+            break;
+// -----------------------OOC COMMANDS-----------------------
+        case "ooc commands":
+            loopLines(ooccommands, "", 80);
+            break;
 
+        case "creative minds":
+            loopLines(creativeminds, "", 80);
+            break;
+// ----------------------------------------------------------
             // Pryzum CTF Command
-            ;
         case "mission":
             loopLines(mission_objective_1, "", 80);
-            break
+            break;
             // Flag{NEVER_TRUST_THE_GOVENMENT}
 
             // -------------------un-used commands might use later on-----------------------------
@@ -88,7 +93,7 @@ function commander(cmd) {
             //---------------------------------------------------------------------------------------------------------------------
 
             // command unknown code:
-            ;
+            
         default:
             addLine('<span class="inherit">Command not found. To see the directory please, type <span class="command">\'dir\'</span>.</span>', "error", 100)
     }
@@ -120,10 +125,10 @@ setTimeout((function() {
     }), 100),
     setTimeout((function() {
         terminal.innerHTML = '<a id="before"></a>', before = document.getElementById("before")
-    }), 5300),
+    }), 5000),
     setTimeout((function() {
         loopLines(banner, "", 80), textarea.focus()
-    }), 6300),
+    }), 5100),
     //loopLines(banner,"",2200),
 
     // ---------------------------------------------------------------------------------------------------------------------
