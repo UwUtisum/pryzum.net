@@ -20,7 +20,7 @@ function enterKey(e) {
                 textarea.value = "",
                 pw = !1, liner.classList.remove("password"))
     } else 13 == e.keyCode && (commands.push(command.innerHTML),
-            git = commands.length, addLine("Pryzum@Computer:-$ " + command.innerHTML, "no-animation", 0),
+            git = commands.length, addLine("Pryzum@104.21.26.119:-$ " + command.innerHTML, "no-animation", 0),
             commander(command.innerHTML.toLowerCase()), command.innerHTML = "", textarea.value = ""),
         38 == e.keyCode && 0 != git && (git -= 1, textarea.value = commands[git], command.innerHTML = textarea.value),
         40 == e.keyCode && git != commands.length && (void 0 === commands[git += 1] ? textarea.value = "" : textarea.value = commands[git],

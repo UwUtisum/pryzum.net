@@ -76,7 +76,7 @@ b {
 }
 #liner::before {
   color: #6a0627;
-  content: "Pryzum@Computer:-$";
+  content: "Pryzum@104.21.26.119:-$";
 }
 #liner.password::before {
   content: "Password:";

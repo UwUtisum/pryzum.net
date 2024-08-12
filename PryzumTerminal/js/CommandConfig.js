@@ -125,7 +125,7 @@ whoarewe = [
 neofetch = [
   //  neofetch command 
   "<br>",
-  "<span class=\"color5\">                   .:-===-                    </span>Pryzum@Computer",
+  "<span class=\"color5\">                   .:-===-                    </span>Pryzum@104.21.26.119",
   "<span class=\"color5\">                .:-=========-:                </span>-------------",
   "<span class=\"color5\">             .:================-.             </span>OS: Kali GNU/Linux",
   "<span class=\"color5\">          :-=========-.:-==========           </span>Kernel: 5.15.133.1",
@@ -235,4 +235,8 @@ creativeminds = [
   "     Responsible for Development of internal Pryzum databases",
   "<h1 class='h1ns'>AkuMaccy</h1>",
   "     Responsible for the Music Production For Pryzum Videos",
+];
+
+videos = [
+
 ];
