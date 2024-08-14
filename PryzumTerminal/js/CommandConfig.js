@@ -152,6 +152,13 @@ neofetch = [
 
 statements = [
   '<hr>',
+  '<h1><span class=\"color5\">A Statement From Pryzum, 14th of August 2024:</span></h1>',
+  '<br>',
+  "Pryzum is aware of a current situation going on regarding new business legislation introduced by Nino, Pryzum will make a more detailed update in the coming days",
+  '<br>',
+  "<h1><span class=\"color5\">For now Nino will be added to Pryzum's Shitlist</span></h1>",
+  '<br>',
+  '<hr>',
   '<h1><span class=\"color5\">A Statement From Pryzum, 28th of May 2024:</span></h1>',
   '<img src="https://femboy.beauty/90R3c.png" style="width:450px;height:700px;">',
   '<br>',
