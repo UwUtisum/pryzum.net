@@ -8,3 +8,10 @@ this project was made by Github user @UwUtisum <br>
 link to my Nopixel Wiki page: <br>
 https://nopixel.fandom.com/wiki/Lucy_Webb
 if you are seeing this from the CTF good luck :3
+
+
+## website structure:
+
+pryzum.net < main domain <br>
+files.pryzum.net < file hosting domain <br>
+internal.pryzum.net < internal site for pryzum members 
