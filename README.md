@@ -14,4 +14,5 @@ if you are seeing this from the CTF good luck :3
 
 pryzum.net < main domain <br>
 files.pryzum.net < file hosting domain <br>
-internal.pryzum.net < internal site for pryzum members 
+internal.pryzum.net < internal site for pryzum members <br>
+recruitment.pryzum.net < recruitment page
