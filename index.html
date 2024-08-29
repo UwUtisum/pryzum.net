@@ -1,123 +1,52 @@
 <title>Pryzum</title>
 <script  src="./EasterEgg.js"></script>
 <link rel="icon" type="image/x-icon" href="../../Sitelogo.png">
-<style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        overflow: hidden;
-        background-color: #000000;
-    }
-
-    @keyframes fadein {
-        0% {
-            opacity:0;
-        }
-        50%{
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-
-    #background-video {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -1000;
-        color: #000000;
-        filter: blur(3px); /* Add the blur effect */
-    }
-
-    #canvas {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        z-index: 0;
-    }
-
-    #video-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 1); /* Black with 50% opacity */
-        z-index: -999;
-    }
-
-    #content {
-        position: relative;
-        z-index: 999;
-        color: #000000;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 38%;
-        animation: fadein 7s; 
-    }
-
-    a {
-        text-decoration: none; /* Remove underline from hyperlinks */
-        color: inherit; /* Inherit text color from parent */
-    }
-
-    #embed-container {
-        display: none; /* Initially hidden */
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        z-index: 9999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    iframe {
-        border: none;
-        max-width: 100%;
-        max-height: 100%;
-        width: 560px;
-        height: 384px;
-    }
-
-    #canvasholder {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    }
-
-    canvas {
-        max-width: 100%;
-        max-height: 100%;
-        image-rendering: pixelated;
-    }
-
-</style>
+<link rel="stylesheet" type="text/css" media="screen" href="./mainpage.css">
 <body>
-    <!--<video autoplay muted loop id="background-video">
-        <source src="./backgroundvideo2.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-    <div id="video-overlay"></div>-->
-    <canvas id="canvas"></canvas>
-    <div id="content">
-        <pre id="tiresult" style="font-size: 10px; background-color: #00000000; font-weight: bold;">
-<b style="font-size: 11px; color:#000000; background-color: #ffffff"><a href="./PryzumTerminal/">Click Here To Open The Pryzym Terminal Interface</a></b><br><br><b style="font-size: 11px; color:#000000; background-color: #ffffff"><a href="https://files.pryzum.net/PhoneDownloads/">[New] Pryzum Phone Downloads</a></b><br><br><b style="font-size: 11px; color:#000000; background-color: #ffffff"><a href="./ShitList/">[New] The Pryzum shit list <br> The Shit List is a list comprised of those who Pryzum deems to be menaces to society</a></b>
-        </pre>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    <div class="terminal">
+        <img src="https://femboy.beauty/uWbPJ.png" width="100" height="100" alt="PryzumLogo">
+        <h1>Pryzum<span class="errorcode">.net</span></h1>
+        <p class="output">Welcome Pryzum.net</p>
+        <p class="output">Go to The <a href="./PryzumTerminal/"><span class="errorcode">Pryzum Terminal</span></a></p>
+        <p class="output">Go to The <a href="./ShitList/"><span class="errorcode">Pryzum ShitList</span></a></p>
+        <p class="output">Go to <a href="https://files.pryzum.net/PhoneDownloads/"><span class="errorcode">Pryzum Phone Downloads</span></a></p>
+        <div class="popupbackground" id="popupbackground">
+            <div class="popup password-input">
+                <img src="https://femboy.beauty/uWbPJ.png" width="100" height="100" alt="PryzumLogo">
+                <h2 style= "justify-content: center; align-items: center;">This Site is a work of fiction</h2>
+                <p style= "margin-left: 20px; margin-right: 20px; justify-content: center; align-items: center;">this site is not related to any real world groups or individuals</p>
+                <img style= "position: absolute; top: 20px; left: 730px;" src="https://femboy.beauty/WPldb.png" width="100" height="100" alt="NoPixelLogo">
+                <!-- The Nopixel Logo is a trademark of nopixel.net -->
+                <button class="password-input" id="closePopup">Close</button>
+            </div>
+        </div>
     </div>
-<script src='https://codepen.io/DonKarlssonSan/pen/JreEJO.js'></script>
-<script src='https://codepen.io/DonKarlssonSan/pen/jBWaad.js'></script><script  src="./script.js"></script>
+
+    <script src="./script.js"></script>
+    <script>
+        const closePopupButton = document.getElementById('closePopup');
+        const popupbackground = document.getElementById('popupbackground');
+        const popup = document.querySelector('.popup');
+    
+        window.addEventListener('load', () => {
+            popupbackground.classList.add('show');
+            popup.classList.add('show');
+        });
+    
+        closePopupButton.addEventListener('click', () => {
+            popup.classList.add('hide');
+            popupbackground.classList.add('hide'); // Add hide class to popupbackground
+    
+            // Use setTimeout to match the CSS transition duration
+            setTimeout(() => {
+                popupbackground.classList.remove('show', 'hide');
+                popup.classList.remove('show', 'hide');
+            }, 500); // Match this duration with the CSS transition duration
+        });
+    </script>    
 </body>
+
+
+
