@@ -47,6 +47,8 @@ changelog = [
   "<span class='command'>             Added shitlist Page - 06/08/2024</span>",
   "<span class='command'>         Added Phone Downloads Page - 06/08/2024</span>",
   "<span class='command'>          Added who are we command - 10/08/2024</span>",
+  "<span class='command'>    Revamped website CSS to be more uniform - 30/08/2024</span>",
+  "<span class='command'>              added popup to mainmenu - 30/08/2024</span>",
   '   <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];

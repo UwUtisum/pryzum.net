@@ -1,42 +1,46 @@
-@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+
 html {
   min-height: 100%;
 }
 body {
   box-sizing: border-box;
   height: 100%;
+  margin: 0;
   background-color: #000000;
   background-image: radial-gradient(#581132, #16040b), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
-  background-repeat: repeat;
-  background-size: cover;
-  font-family: "Inconsolata", Helvetica, sans-serif;
-  font-size: 1.5rem;
+  background-repeat: no-repeat, no-repeat; /* No repeat for both the gradient and the GIF */
+  background-size: cover, cover; /* Both the gradient and the GIF will cover the entire screen */
+  background-position: center, center; /* Center the gradient and the GIF */
   color: rgba(255, 0, 106, 0.8);
   text-shadow: 0 0 1ex #74003a, 0 0 2px rgba(255, 255, 255, 0.8);
 }
+
 .noise {
   pointer-events: none;
   position: absolute;
   width: 100%;
   height: 100%;
   background-image: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
-  background-repeat: repeat;
-  background-size: cover;
+  background-repeat: no-repeat; /* No repeat for the GIF */
+  background-size: cover; /* Make the GIF always cover the entire screen */
+  background-position: center; /* Center the GIF */
   z-index: -1;
   opacity: 0.02;
 }
+
 ::selection{
   background: rgba(255, 8, 181, 0.5);
 }
 .overlay {
   pointer-events: none;
-  position: absolute;
+  position: fixed; /* Change to fixed to stick to the viewport */
   width: 100%;
-  height: 100%;
+  min-height: 100vh; /* Use min-height to extend indefinitely */
   background: repeating-linear-gradient(180deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%);
   background-size: auto 4px;
   z-index: 2000;
 }
+
 .overlay::before {
   content: "";
   pointer-events: none;
@@ -51,8 +55,9 @@ body {
   background-image: linear-gradient(0deg, transparent 0%, rgba(128, 32, 72, 0.2) 2%, rgba(128, 32, 80, 0.8) 3%, rgba(128, 32, 80, 0.2) 3%, transparent 100%);
   background-repeat: no-repeat;
   -webkit-animation: scan 7.5s linear 0s infinite;
-          animation: scan 7.5s linear 0s infinite;
+  animation: scan 7.5s linear 0s infinite;
 }
+
 @-webkit-keyframes scan {
   0% {
     background-position: 0 -100vh;
@@ -69,17 +74,6 @@ body {
     background-position: 0 100vh;
   }
 }
-.terminal {
-  box-sizing: inherit;
-  position: absolute;
-  height: 100%;
-  width: 1000px;
-  max-width: 100%;
-  padding: 4rem;
-  text-transform: uppercase;
-  opacity: 1;
-  transition: opacity 1s ease-in-out;
-}
 .hidden {
   opacity: 0;
 }
@@ -93,12 +87,6 @@ body {
 a {
   color: #fff;
   text-decoration: none;
-}
-a::before {
-  content: "[";
-}
-a::after {
-  content: "]";
 }
 .errorcode {
   color: white;
@@ -134,15 +122,6 @@ a::after {
   100% {
       opacity: 1;
   }
-}
-
-/* Ensure the body and HTML take up the full viewport */
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden; /* Hide scrollbars */
 }
 
 #background-video {

@@ -1,11 +1,9 @@
 body {
   margin: 0;
-  padding: 15px 20px;
   min-height: 99%;
   width: 100%;
   min-width: 550px;
   color: #f8ff8f;
-  background: #211D1B;
   font-size: 14px;
   font-family: cursor, monospace;
   overflow-x: hidden;
@@ -75,7 +73,7 @@ b {
   opacity: 0;
 }
 #liner::before {
-  color: #6a0627;
+  color: #ac0b40;
   content: "Pryzum@104.21.26.119:-$";
 }
 #liner.password::before {
@@ -121,7 +119,7 @@ a:link {
   color: #686854;
 }
 .color2 {
-  color: #B89076;
+  color: #c25668;
 }
 .color3 {
   color: #ee4c4c;
