@@ -1,4 +1,4 @@
-# Pryzum.github.io
+# Pryzum.net
 Pryzum Website Source Code <br>
 Pryzum is a group in the GTA FiveM server Nopixel and has no relation to Real life events or groups <br>
 this website is for entertainment only and is not endorsed or officially from nopixel
@@ -16,3 +16,12 @@ pryzum.net < main domain <br>
 files.pryzum.net < file hosting domain <br>
 internal.pryzum.net < internal site for pryzum members <br>
 recruitment.pryzum.net < recruitment page.
+
+
+## Pryzum Internal App
+
+the pryzum internal app is a pc desktop aplication used internaly by Pryzum members to get updates on the fly
+
+the pryzum internal App is closed source but i thought it would be nice to show off here
+
+![Pryzum Internal App](https://femboy.beauty/2R6yb.png)
