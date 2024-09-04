@@ -7,8 +7,6 @@ this website is for entertainment only and is not endorsed or officially from no
 this project was made by Github user @UwUtisum <br>
 link to my Nopixel Wiki page: <br>
 https://nopixel.fandom.com/wiki/Lucy_Webb
-if you are seeing this from the CTF good luck :3
-
 
 ## website structure:
 
@@ -17,7 +15,6 @@ files.pryzum.net < file hosting domain <br>
 internal.pryzum.net < internal site for pryzum members <br>
 recruitment.pryzum.net < recruitment page.
 
-
 ## Pryzum Internal App
 
 the pryzum internal app is a pc desktop aplication used internaly by Pryzum members to get updates on the fly
@@ -25,3 +22,5 @@ the pryzum internal app is a pc desktop aplication used internaly by Pryzum memb
 the pryzum internal App is closed source but i thought it would be nice to show off here
 
 ![Pryzum Internal App](https://femboy.beauty/2R6yb.png)
+
+## This SRC is to be concidered OOC knowlage due to github-pages limitations requireing me to host this SRC public (i dont want the SRC being public but i literaly cant do shit lol)
